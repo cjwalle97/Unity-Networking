@@ -8,7 +8,7 @@ public class Name : NetworkBehaviour
     [SyncVar(hook = "InputName")]
     public string PlayerName = "Test";
 
-
+    
 
     void InputName(string newname)
     {
